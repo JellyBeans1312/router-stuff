@@ -7,7 +7,7 @@ const CreatureDetails = ({ id, name, image, bio, type }) => {
     <div>
       <Link to={`/${type}`} className='back-btn'>◀ back</Link>
       <h1>{name}</h1>
-      <img src={image} className='app-img-no-hover'/>
+      <img src={image} className='app-img-no-hover' alt=''/>
       <p className='creature-bio'>{bio}</p>
     </div>
   )
